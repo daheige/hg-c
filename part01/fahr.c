@@ -10,16 +10,18 @@
  * 通常都可以直接使用
  */
 
-int main(){
-	int fahr,cels,lower,upper,step;
-	lower = 0; //温度表的下限
+int main()
+{
+	int fahr, cels, lower, upper, step;
+	lower = 0;   //温度表的下限
 	upper = 300; //温度表的上限
-	step = 20; //步长
+	step = 20;   //步长
 	fahr = lower;
-	while(fahr <= upper){
-		cels = 5 * (fahr -32) /9;
-		printf("%d\t%d\n",fahr,cels);
-		fahr = fahr +step;
+	while (fahr <= upper)
+	{
+		cels = 5 * (fahr - 32) / 9;
+		printf("%d\t%d\n", fahr, cels);
+		fahr = fahr + step;
 	}
 
 	return 0;
@@ -44,4 +46,3 @@ heige@daheige:/web/hg-c/part01$ ./fahr.out
 280	137
 300	148
 */
-
