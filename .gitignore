@@ -4,4 +4,6 @@ test
 hello
 mydemo
 .vscode
+*.out
+
 
