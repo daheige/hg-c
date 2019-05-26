@@ -5,5 +5,7 @@ hello
 mydemo
 .vscode
 *.out
-
+*.e
+*.s
+*.o
 
